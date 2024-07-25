@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta
+            charset="utf-8"
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        />
+        <title>Mengenal Dasar Pemrograman Web</title>
+
+        <link rel="stylesheet" href="assets/styles/style.css">
+
+        <!--google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"
+        >
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>Mengenal Dasar Pemrograman Web</h1>
+                <p>
+                    Bahasa dasar yang wajib diketahui dan diperhatikan oleh semua developer baik yang junior maupun senior.
+                </p>
+            </div>
+            <nav>
+            <ul>
+                <li>
+                    <a href="#pendahuluan" class="hoverAnimation">Pendahuluan</a>
+                </li>
+                <li>
+                    <a href="#html" class="hoverAnimation">HTML</a>
+                </li>
+                <li>
+                    <a href="#css" class="hoverAnimation">CSS</a>
+                </li>
+                <li>
+                    <a href="#javascript" class="hoverAnimation">Javascript</a>
+                </li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+
+            <div id="content">
+                <article id="pendahuluan" class="card">
+                    <h2>Pendahuluan</h2>
+                    <img src="assets/image/HTML, CSS, Javascript.png" alt="pendahuluan" class="featured-image">
+                    <p>
+                        Bahasa pemrograman web adalah fondasi dari pengembangan web modern. Dalam artikel ini, kita akan membahas tiga bahasa utama yang digunakan dalam pengembangan web: HTML, CSS, dan JavaScript. Masing-masing bahasa ini memiliki peran yang unik dan penting dalam membangun situs web yang interaktif dan responsif.
+                    </p>
+                </article>
+
+                <article id="html" class="card">
+                    <h2>HTML: Hyper Text Markup Language</h2>
+                    <p>
+                        HTML adalah bahasa markup standar untuk membuat halaman web. HTML menyediakan struktur dasar halaman web dengan menggunakan elemen-elemen yang didefinisikan oleh tag.                           
+                    </p>
+                    <p>
+                        Contoh kode html sederhana.
+                    </p>
+                    <img src="assets/image/html.png" alt="html" class="featured-image">
+                    <p>
+                        <b><!DOCTYPE html>:</b> Menentukan tipe dokumen dan versi HTML yang digunakan.<br>
+                        <b><html>:</b> Elemen akar yang membungkus seluruh konten halaman.<br>
+                        <b><head>:</b> Bagian yang berisi informasi meta tentang dokumen, seperti judul.<br>
+                        <b><body>:</b> Bagian yang berisi konten yang akan ditampilkan di halaman web.
+                    </p>
+                </article>
+
+                <article id="css" class="card">
+                    <h2>CSS: Cascading Style Sheet</h2>
+                    <p>
+                        Apa itu CSS? CSS adalah bahasa yang digunakan untuk mendesain dan menata halaman web. CSS memungkinkan pengembang untuk mengatur tampilan elemen HTML secara terpisah dari struktur dokumen.
+                    </p>
+                    <p>
+                        Contoh penggunaan kode css pada web.
+                    </p>
+                    <img src="assets/image/css.png" alt="css" class="featured-image">
+                    <p>
+                        <b>background-color:</b> Mengatur warna latar belakang halaman.<br>
+                        <b>font-family:</b> Mengatur jenis font yang digunakan di seluruh halaman.<br>
+                        <b>color:</b> Mengatur warna teks untuk elemen tertentu.<br>                   
+                    </p>
+                </article>
+
+                <article id="javascript" class="card">
+                    <h2>Javascript</h2>
+                    <p>
+                        Apa itu JavaScript? JavaScript adalah bahasa pemrograman yang digunakan untuk membuat halaman web lebih interaktif. JavaScript memungkinkan pengembang untuk menambahkan fitur dinamis seperti animasi, validasi formulir, dan pengambilan data dari server.
+                    </p>
+                    <p>
+                        Contoh penggunaan kode javascript pada web.
+                    </p>
+                    <img src="assets/image/js.png" alt="javascript" class="featured-image">
+                    <p>
+                        <b>&lt;script&gt;:</b> Tag untuk menyisipkan kode JavaScript.<br>
+                        <b>showMessage:</b> Fungsi JavaScript yang menampilkan pesan selamat datang menggunakan kotak dialog.
+                    </p>
+                    <p>
+                        Berikut contoh button yang dibuat menggunakan javascript:
+                    </p>
+                    <button onclick="greet()">Klik Saya</button>
+                </article>
+            </div>
+
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>About Creator</h2>
+                        <figure>
+                            <img src="assets/image/Ellipse 1.png" alt="profil" class="aside-image">
+                        </figure>
+                    </header>
+                    <hr>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Nama:</th>
+                                <td>Indonesia</td>
+                            </tr>
+                            <tr>
+                                <th>Asal:</th>
+                                <td>Bandung</td>
+                            </tr>
+                            <tr>
+                                <th>Tinggal:</th>
+                                <td>D.I. Yogyakarta</td>
+                            </tr>
+                            <tr>
+                                <th>Pendidikan:</th>
+                                <td>Universitas Dian Nuswantoro</td>
+                            </tr>
+                            <tr>
+                                <th>Hobi:</th>
+                                <td>Berpetualang, mendaki gunung</td>
+                            </tr>
+                            <tr>
+                                <th>Instagram:</th>
+                                <td>@izulsyauki</td>
+                            </tr>
+                        </table>
+                    </section>
+                    <hr>
+                    <h2>My Gallery</h2>
+                    <!-- SLIDER -->
+                    <div class="slider">
+                        <div class="slides">
+                            <img class="slide" src="../Dasar Pemrograman Web/assets/image/gallery/1. Prau.jpg" alt="Prau">
+                            <img class="slide" src="../Dasar Pemrograman Web/assets/image/gallery/2. Andong.jpg" alt="Andong">
+                            <img class="slide" src="../Dasar Pemrograman Web/assets/image/gallery/3. Merbabu.jpg" alt="Merbabu">
+                            <img class="slide" src="../Dasar Pemrograman Web/assets/image/gallery/4. Putri.jpg" alt="Putri">
+                            <img class="slide" src="../Dasar Pemrograman Web/assets/image/gallery/5. Muria.jpg" alt="Muria">
+                        </div>
+                        <button class="previous" onclick="prevSlide()">&#10094</button>
+                        <button class="next" onclick="prevSlide()">&#10095</button>
+
+                    </div>
+                </article>
+        </main>
+        <footer>
+            <p>Mengenal Dasar Pemrograman Web &#169; 2024, By Izulsyauki Imani</p>
+        </footer>
+
+        <!-- source js -->
+        <script src="index.js"></script>
+    </body>
+</html>
